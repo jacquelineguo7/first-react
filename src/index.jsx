@@ -12,17 +12,23 @@ const root = createRoot(document.getElementById("root"))
  */
 
 root.render(
-    <Page />
+  <Page />
 )
+
+function Header() {
+  return (
+    <header>
+        <img src="/assets/react.svg" alt="React logo" height={40}/>
+      </header>
+  )
+}
 
 function Page() {
   return (
-    <div>
-      <img src="/assets/react.svg" alt="React logo" height={40}/>
-      <header>
-        <h1>Why I'm excited to learn React:</h1>
-      </header>
+    <>
+      <Header />
       <main>
+        <h1>Why I'm excited to learn React:</h1>
         <ol>
           <li>I want to become a design engineer!</li>
           <li>I want to understand the underlying technologies of what I'm building.</li>
@@ -33,6 +39,6 @@ function Page() {
         <small>© 2025 by Jacqueline. All rights reserved.</small>
       </footer>
 
-    </div>
+    </>
   )
 }
