@@ -1,14 +1,11 @@
 export default function Main() {
   return (
-    <header className="nav-bar">
-        <img src="/assets/react.svg" className="logo" alt="React logo"/>
-        <nav>
-          <ul className="nav-list"> 
-            <li className="nav-item">Pricing</li>
-            <li className="nav-item">About</li>
-            <li className="nav-item">Contact</li>
-          </ul>
-        </nav>
-      </header>
+    <main>
+      <h1>Why I'm excited to learn React:</h1>
+      <ol>
+        <li className="list-item">I want to become a design engineer who understands the underlying technologies of what I'm building.</li>
+        <li className="list-item">I want to build a really beautiful personal website.</li>
+      </ol>
+    </main>
   )
 }

@@ -3,7 +3,7 @@ export default function Navbar() {
     <header className="nav-bar">
         <img src="/assets/star.svg" className="logo" alt="React logo"/>
         <nav>
-            <span>Jacqueline's 2026 Goals</span>
+            <span>Jacqueline's Notes</span>
         </nav>
       </header>
   )
